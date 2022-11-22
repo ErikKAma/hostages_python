@@ -23,10 +23,12 @@ a {
 
 .wrapper {
 	max-width: 1250px;
-	
+	padding: 0 15 px;
 	margin: 0 auto;
 	text-decoration: none;
+	flex-direction: column;
 }
+
 
 .text_wrapper {
 	background-color: #65AD9C;
@@ -510,3 +512,78 @@ a {
     color: #FFFFFF;
 
 }
+
+
+/* Media start */
+
+@media only screen and (max-width: 460px) {
+	.intro {
+	/* Улучшенное фото  progif 1 */
+    width: 360.09px;
+    height: 150px;
+    left: 6px;
+    top: 158px;
+
+
+	background: url(../images/intro2.jpg) no-repeat center;
+	padding-top: 80px;
+	}
+
+	.intro-title {
+		margin-top: 68px;
+		font-size: 60px;
+		line-height: 65px;
+		margin-bottom: -20px;
+
+	}
+
+	.wrapper {
+		height: 180px;
+	}
+
+	.header {
+		background: #1C7C65;
+	}
+
+	body {
+		background: white;
+	}
+
+	.place_cards {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 20px;
+    }
+
+    .cards_wrap {
+    	max-width: 360px;
+    	height: 1840px;
+    }
+    .conclusion_wrap {
+    	width: 360px;
+    }
+
+    .conclusion_subtitle {
+    	width: 384px;
+    	height: 200px;
+    }
+
+    .conclusion_subtitle2 {
+    	width: 340px;
+    	height: 172px;
+    	top: 138px;
+    	font-size: 13px;
+    	margin-left: 0;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 460px) {
+	body {
+		width: 360px;
+		height: 740px;
+	}
+}
+/* Media end */

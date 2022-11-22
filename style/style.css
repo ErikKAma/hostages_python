@@ -514,7 +514,7 @@ a {
 }
 
 
-/* Media start */
+
 
 @media only screen and (max-width: 460px) {
 	.intro {
@@ -586,4 +586,3 @@ a {
 		height: 740px;
 	}
 }
-/* Media end */
